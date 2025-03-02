@@ -2,6 +2,7 @@ import { prisma } from "@/lib/prisma";
 import { OverviewQuerySchema } from "@/schema/overview";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import { NextResponse } from "next/server";
 
 export async function GET(request: Request) {
   const user = await currentUser();
@@ -23,7 +24,7 @@ export async function GET(request: Request) {
     queryParams.data.from,
     queryParams.data.to
   );
-  return Response.json(stats);
+  return NextResponse.json(stats);
 }
 
 export type GetCategoriesStatsResponseType = Awaited<

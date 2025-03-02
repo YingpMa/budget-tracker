@@ -1,6 +1,7 @@
 import { prisma } from "@/lib/prisma";
 import { currentUser } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
+import { NextResponse } from "next/server";
 import { z } from "zod";
 
 export async function GET(request: Request) {
@@ -15,7 +16,7 @@ export async function GET(request: Request) {
   const validator = z.enum(["expense", "income"]).nullable();
   const queryParams = validator.safeParse(paramType);
   if (!queryParams.success) {
-    return Response.json(queryParams.error, {
+    return NextResponse.json(queryParams.error, {
       status: 400,
     });
   }
@@ -32,5 +33,5 @@ export async function GET(request: Request) {
     },
   });
 
-  return Response.json(categories);
+  return NextResponse.json(categories);
 }
