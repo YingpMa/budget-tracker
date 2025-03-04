@@ -1,4 +1,3 @@
-/* eslint-disable max-lines */
 "use client";
 
 import React, { type FC, useState, useEffect, useRef } from "react";
@@ -289,7 +288,7 @@ export const DateRangePicker: FC<DateRangePickerProps> & {
 
   useEffect(() => {
     checkPreset();
-  }, [range]);
+  }, [checkPreset, range, rangeCompare]);
 
   const PresetButton = ({
     preset,
