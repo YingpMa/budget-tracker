@@ -6,7 +6,7 @@ A sleek and powerful full-stack budget tracking application built with modern to
 👉 **[Live Demo](https://budget-tracker-yingping.vercel.app/)**
 
 
-## ✨ Key Features
+## Key Features ✨
 - **Effortless Transaction Management**: Add, edit, or delete transactions in just a few clicks.
 - **Smart Category Insights**: Get a breakdown of your spending by category to better understand your habits.
 - **Dynamic Data Visualization**: Beautiful charts powered by **Recharts** to track your financial journey over time.
@@ -15,7 +15,7 @@ A sleek and powerful full-stack budget tracking application built with modern to
 - **Blazing Fast Performance**: Optimized with **React-Query** for smooth state management and caching.
 
 
-## 🛠 Tech Stack
+## Tech Stack 🛠 
 ### Frontend
 - **Next.js 14**: API routes, server actions, and a blazing-fast frontend.
 - **TypeScript**: Clean, maintainable, and type-safe code.
