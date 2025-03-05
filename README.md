@@ -1,5 +1,5 @@
 
-### Budget Tracker 
+# Budget Tracker 
 
 A sleek and powerful full-stack budget tracking application built with modern tools like **Next.js 14**, **TypeScript**, **Prisma ORM**, **Tailwind CSS**, and more. Whether you're tracking expenses, analyzing spending habits, or visualizing financial trends, this app has you covered!
 
@@ -15,7 +15,7 @@ A sleek and powerful full-stack budget tracking application built with modern to
 - **Blazing Fast Performance**: Optimized with **React-Query** for smooth state management and caching.
 
 
-## Tech Stack 🛠 
+## Tech Stack 🛠
 ### Frontend
 - **Next.js 14**: API routes, server actions, and a blazing-fast frontend.
 - **TypeScript**: Clean, maintainable, and type-safe code.
