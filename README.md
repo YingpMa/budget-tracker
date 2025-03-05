@@ -1,7 +1,7 @@
 
 # Budget Tracker 
 
-A sleek and powerful full-stack budget tracking application built with modern tools like **Next.js 14**, **TypeScript**, **Prisma ORM**, **Tailwind CSS**, and more. Whether you're tracking expenses, analyzing spending habits, or visualizing financial trends, this app has you covered!
+A sleek and powerful full-stack budget tracking application built with modern tools like **Next.js 15**, **TypeScript**, **Prisma ORM**, **Tailwind CSS**, and more. Whether you're tracking expenses, analyzing spending habits, or visualizing financial trends, this app has you covered!
 
 👉 **[Live Demo](https://budget-tracker-yingping.vercel.app/)**
 
